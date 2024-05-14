@@ -55,7 +55,7 @@ const About = () => {
       const data = response.data;
       if (data) {
         setIsLoading(false);
-        toast.success("Email Sent To Admin Successfull");
+        toast.success("Email Sent Successfull");
       }
     } catch (error) {
       if (error.response.status === 400 && error.response) {
